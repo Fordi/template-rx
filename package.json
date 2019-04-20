@@ -1,11 +1,19 @@
 {
   "name": "template-rx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tiny lib for templated regular expressions",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "author": "Bryan Elliott",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fordi/template-rx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fordi/template-rx/issues"
+  },
+  "homepage": "https://github.com/Fordi/template-rx#readme"
 }
