@@ -1,0 +1,11 @@
+{
+  "name": "template-rx",
+  "version": "1.0.0",
+  "description": "Tiny lib for templated regular expressions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Bryan Elliott",
+  "license": "ISC"
+}
