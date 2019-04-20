@@ -35,4 +35,8 @@ console.log(html.match(metaImgRx));
 const testing = rx`test-${['one', 'two', 'three']}`;
 // > /test-(?:one|two|three)/
 
+// Expressions are appropritately escaped
+const evilInput = rx`options: ${['x|y', 'z']}`;
+// > /options: (?:x\|y|z)/
+
 ```
