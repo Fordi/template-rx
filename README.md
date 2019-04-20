@@ -7,6 +7,8 @@ A tiny lib for templated regular expressions.
 
 ```javascript
 
+const rx = require('template-rx');
+
 /**
  * A function that returns a regular expression that captures self-closing
  * HTML tags of a given name.  Note that while all escapees require a
