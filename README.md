@@ -19,11 +19,11 @@ const selfCloser = tagName => rx`/<(${tagName})([^>]+)/>/ig`;
 const html = '<html><head><meta charset="utf-8" /></head><body><img src="logo.png" /></html>';
 
 const imgRx = selfCloser('img');
-// > /<img([^>]+)\/>/g
+// > /<img([^>]+)\/>/gi
 
 // Arrays passed in will result in an uncaptured option list
 const metaImgRx = selfCloser(['img', 'meta']);
-// > /<(?:meta|img)([^>]+)\/>/g
+// > /<(?:meta|img)([^>]+)\/>/gi
 
 console.log(html.match(imgRx));
 // > ['<img src="logo.png" />']
